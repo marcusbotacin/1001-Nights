@@ -134,6 +134,10 @@ get in contact, so I can update the repository.
 
 The *Tools* directory contains scripts I've written to help parsing and data analysis.
 
+## Deobfuscation
+
+The *Deobfuscation* directory contains some simple function I have written to obfuscate/deobfuscate/understand the samples presented as example on 2017's paper.
+
 ## Plot
 
 On the *Plot* directory, you can find gnuplot data and scripts for reproducing some graphs from the paper. If you are interested on how we automated script generation, take a look [here](https://github.com/marcusbotacin/Writing.Tools.git).
