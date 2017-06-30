@@ -130,6 +130,10 @@ on distinct years.
 If you are looking for some data which is not available here, please 
 get in contact, so I can update the repository.
 
+## Tools
+
+The *Tools* directory contains scripts I've written to help parsing and data analysis.
+
 ## Plot
 
 On the *Plot* directory, you can find gnuplot data and scripts for reproducing some graphs from the paper. If you are interested on how we automated script generation, take a look [here](https://github.com/marcusbotacin/Writing.Tools.git).
