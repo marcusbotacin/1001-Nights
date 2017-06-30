@@ -121,7 +121,7 @@ e9610e3e8ec4043767601f5f16c6d4ec|Bochs & QEmu CPUID Trick
 We think reproducibility is very import, so we provide the data we used to
 perfom analysis. However, you should take care of metrics when trying to
 reproduce the presented experiments. When doing so, consider the applied
-metric, such as wether the number of samples is the total or **uniques**,
+metric, such as whether the number of samples is the total or **uniques**,
 total or **by filetype**, total or **by extension**, total or those which
 **presented a given behavior**, and so on. You should also care about the 
 date of the data you are looking into, since we conducted distinct studies
