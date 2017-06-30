@@ -125,7 +125,10 @@ metric, such as wether the number of samples is the total or **uniques**,
 total or **by filetype**, total or **by extension**, total or those which
 **presented a given behavior**, and so on. You should also care about the 
 date of the data you are looking into, since we conducted distinct studies
-on distinct years.
+on distinct years. 
+
+If you are looking for some data which is not available here, please 
+get in contact, so I can update the repository.
 
 ## Plot
 
