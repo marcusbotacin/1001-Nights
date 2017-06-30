@@ -2,39 +2,40 @@
 
 ## What is ?
 
-It'a research project we conducted from 2012 to 2016 analyzing more than 30K brazilian malware samples in order to characterize them
+It's a research project we conducted from 2012 to 2017 analyzing more than 40K brazilian malware samples in order to characterize them.
 
 ## About us
 
-This research was conducted by [Marcus Botacin](www.lasca.ic.unicamp.br/~marcus)
+This research was conducted by [Marcus Botacin](www.lasca.ic.unicamp.br/~marcus), started
 while a Junior Researcher at the [Institute of
 Computing](http://www.ic.unicamp.br/) from [University of
-Campinas](http://www.unicamp.br/unicamp/), advised by [Prof. Dr. Paulo
+Campinas](http://www.unicamp.br/unicamp/), being advised by [Prof. Dr. Paulo
 Lício de Geus](http://www.lasca.ic.unicamp.br/paulo/) and [Prof. Dr. André
 Ricardo Abed Grégio](https://sites.google.com/site/argregio/).
 
-## Publication
+## Publications
 
 You can read our findings on the following publications:
 
 ### English
 	TBA
+
 ### Portuguese
 
-[Uma Visão Geral do Malware Ativo no Espaço Nacional da Internet entre 2012 e 2015](http://siaiap34.univali.br/sbseg2015/anais/WFC/artigoWFC02.pdf)
+[Uma Visão Geral do Malware Ativo no Espaço Nacional da Internet entre 2012 e 2015](http://siaiap34.univali.br/sbseg2015/anais/WFC/artigoWFC02.pdf) (2012-2015)
 
 ## Presentations
 
-* [GTS 26 PDF](ftp://ftp.registro.br/pub/gts/gts26/02-analise-malware.pdf)
+* [GTS 26 PDF](https://github.com/marcusbotacin/Talks/blob/master/GTS26/02-analise-malware.pdf)
 * [GTS 26 Youtube](https://www.youtube.com/watch?v=Iwy6nuEVNkc)
 
 ## Repository goal
 
-I intend to provide here additional research data. It covers analysis results not included on the final version or developed tools/scripts.
+I intend to provide here additional research data. It covers analysis results not included on the final version and/or developed tools/scripts.
 
 ## Analysis Tools
 
-A list of tools which helped on research development.
+A list of tools which helped me during research development.
 
 * [Pyew](https://code.google.com/p/pyew/)
 * [Peframe](https://github.com/guelfoweb/peframe)
@@ -48,17 +49,18 @@ A list of tools which helped on research development.
 * [nDPI](http://www.ntop.org/products/deep-packet-inspection/ndpi/)
 * [GeoIP](https://pypi.python.org/pypi/GeoIP/)
 
-These tools' usage was automated using [these
+The tools' usage was automated using [these
 scripts](https://github.com/marcusbotacin/Malware.Analysis.Utils)
 
-Dynamic malware analysis was performed using our developed tool
+Dynamic malware analysis was performed using our developed sandbox solution
 [BehEMOT](https://github.com/marcusbotacin/BehEMOT-NG).
 
 ## Analyzed Data
 
 On the *Data* directory, you can find:
 
-* **md5.txt**: MD5 of unique samples.
+* **md5.txt**: MD5 of unique samples (2012-2015).
+* **md5.2017.txt**: MD5 of unique samples (2012-2017).
 * **hash.names.txt**: MD5-names of many samples.
 * **ext.txt**: Sample's extensions.
 * **ftypes.txt**: Sample's filetypes.
@@ -69,6 +71,13 @@ On the *Data* directory, you can find:
 * **run_keys.txt**: Registry *\Run* key writes **without** filters.
 * **dotnet.txt**: Samples which presented *.Net* characteristics.
 * **peframe.db**: PEframe database.
+* **js.txt**: MD5 hashes of collected JS files.
+* **js.deobfuscated.txt**: MD5 hashes of deobfuscated JS files.
+* **vbe.txt**: MD5 hashes of VBE (encoded) files.
+* **vbs.txt**: MD5 hashes of VBS (decoded) files.
+* **jar.txt**: MD5 hashes of JAR files.
+* **jar.classes.txt**: MD5 hashes of Java classes (source) files.
+
 
 ### Using the database
 
@@ -114,7 +123,9 @@ perfom analysis. However, you should take care of metrics when trying to
 reproduce the presented experiments. When doing so, consider the applied
 metric, such as wether the number of samples is the total or **uniques**,
 total or **by filetype**, total or **by extension**, total or those which
-**presented a given behavior**, and so on.
+**presented a given behavior**, and so on. You should also care about the 
+date of the data you are looking into, since we conducted distinct studies
+on distinct years.
 
 ## Plot
 
